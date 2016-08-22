@@ -1,0 +1,5 @@
+vim/*.spl
+vim/plugged
+vim/haddock
+vim/haskellmode.config
+*.sw?
