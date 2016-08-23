@@ -10,4 +10,6 @@ Plug 'Twinside/vim-haskellFold'
 Plug 'tpope/vim-fugitive'
 Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeTabsToggle' }
 Plug 'jistr/vim-nerdtree-tabs', { 'on': 'NERDTreeTabsToggle' }
+Plug 'dmwit/vim-cryptol'
+Plug 'Shirk/vim-gas'
 call plug#end()
