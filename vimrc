@@ -5,6 +5,7 @@ syn on
 set nocompatible
 set number
 set laststatus=2
+set t_Co=256
 
 set wildmode=longest,full
 set wildmenu
