@@ -4,9 +4,9 @@ LNFLAGS		= -srf
 .PHONY: all clean
 
 all:
-	$(LN) $(LNFLAGS) vim $(HOME)/.vim
-	$(LN) $(LNFLAGS) vimrc $(HOME)/.vimrc
-	vim -c PlugInstall
+	@echo "LN vim $(HOME)/.vim" && $(RM) ~/.vim && $(LN) $(LNFLAGS) vim $(HOME)/.vim
+	@echo "LN vim $(HOME)/.vim" && $(RM) ~/.vimrc && $(LN) $(LNFLAGS) vimrc $(HOME)/.vimrc
+	@vim -c PlugInstall
 
 clean:
 	$(RM) $(HOME)/.vim
