@@ -9,7 +9,7 @@ all: clean vim-plug
 	@vim -c PlugInstall
 
 clean:
-	@echo "RM $(HOME)/.vim" && $(RM) $(HOME)/.vim
+	@echo "RM $(HOME)/.vim" && $(RM) -r $(HOME)/.vim
 	@echo "RM $(HOME)/.vimrc" && $(RM) $(HOME)/.vimrc
 
 vim-plug:
