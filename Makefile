@@ -6,6 +6,7 @@ LNFLAGS		= -srf
 all:
 	$(LN) $(LNFLAGS) vim $(HOME)/.vim
 	$(LN) $(LNFLAGS) vimrc $(HOME)/.vimrc
+	vim -c PlugInstall
 
 clean:
 	$(RM) $(HOME)/.vim
