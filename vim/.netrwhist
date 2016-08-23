@@ -1,9 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =7
-let g:netrw_dirhist_1='/home/hamlinb/proj/protouserenv/home/dotfiles/vim/syntax_checkers'
-let g:netrw_dirhist_2='/home/hamlinb/proj/protouserenv/home/dotfiles/vim/doc'
-let g:netrw_dirhist_3='/home/hamlinb/.ghc'
-let g:netrw_dirhist_4='/home/hamlinb/proj/incremental-sift/tests/oprofile_data'
-let g:netrw_dirhist_5='/home/hamlinb/proj/protouserenv/home/dotfiles/vim/ftdetect'
-let g:netrw_dirhist_6='/home/hamlinb/proj/protouserenv/st/patches'
-let g:netrw_dirhist_7='/home/hamlinb/proj/vim-config/.git'
