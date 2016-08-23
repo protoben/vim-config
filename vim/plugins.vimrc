@@ -7,6 +7,7 @@ Plug 'lrvick/Conque-Shell'
 Plug 'https://github.com/yuratomo/w3m.vim.git'
 Plug 'flazz/vim-colorschemes'
 Plug 'Twinside/vim-haskellFold'
+Plug 'tpope/vim-fugitive'
 Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeTabsToggle' }
 Plug 'jistr/vim-nerdtree-tabs', { 'on': 'NERDTreeTabsToggle' }
 call plug#end()

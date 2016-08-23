@@ -9,3 +9,5 @@ noremap <Leader>h gT
 noremap <Leader>l gt
 
 noremap <Leader>t :NERDTreeTabsToggle<CR>
+
+noremap <Leader>g :Gstatus<CR>
