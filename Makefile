@@ -6,7 +6,7 @@ LNFLAGS		= -srf
 all: clean vim-plug
 	@echo "LN vim $(HOME)/.vim"; $(LN) $(LNFLAGS) vim $(HOME)/.vim
 	@echo "LN vimrc $(HOME)/.vimrc"; $(LN) $(LNFLAGS) vimrc $(HOME)/.vimrc
-	@vim -c PlugInstall
+	@vim -c PlugInstall -c 'silent only'
 
 clean:
 	@echo "RM $(HOME)/.vim" && $(RM) -r $(HOME)/.vim
