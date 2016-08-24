@@ -8,6 +8,8 @@ noremap <C-L> <C-W>l
 noremap <Leader>h gT
 noremap <Leader>l gt
 
+noremap <Leader>r :source ~/.vimrc<CR>
+
 " Plugin key mappings
 noremap <Leader>t :NERDTreeTabsToggle<CR>
 noremap <Leader>g :Gstatus<CR>
