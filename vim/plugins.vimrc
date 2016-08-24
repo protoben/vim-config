@@ -13,4 +13,5 @@ Plug 'jistr/vim-nerdtree-tabs', { 'on': 'NERDTreeTabsToggle' }
 Plug 'dmwit/vim-cryptol'
 Plug 'Shirk/vim-gas'
 Plug 'chrisbra/vim-show-whitespace'
+Plug 'vim-utils/vim-man'
 call plug#end()

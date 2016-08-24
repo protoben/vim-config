@@ -12,3 +12,5 @@ noremap <Leader>l gt
 noremap <Leader>t :NERDTreeTabsToggle<CR>
 noremap <Leader>g :Gstatus<CR>
 noremap <Leader>w :ShowWhiteToggle<CR>
+noremap <Leader>k :exe 'Man ' . expand('<cword>')<CR>
+noremap <Leader>K :Vman <C-R><C-W><CR>
