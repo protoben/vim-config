@@ -9,8 +9,8 @@ all: clean vim-plug
 	@vim -c PlugInstall -c 'silent only'
 
 clean:
-	@echo "RM $(HOME)/.vim" && $(RM) -r $(HOME)/.vim
-	@echo "RM $(HOME)/.vimrc" && $(RM) $(HOME)/.vimrc
+	@echo "RM $(HOME)/.vim"; $(RM) -r $(HOME)/.vim
+	@echo "RM $(HOME)/.vimrc"; $(RM) $(HOME)/.vimrc
 
 vim-plug: vim/plugged vim/autoload vim/autoload/plug.vim
 	git submodule update --init --recursive
