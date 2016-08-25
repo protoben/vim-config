@@ -5,6 +5,9 @@ Vim Configuration for Cool People
 The vimrc.d idea was stolen from [here](https://github.com/mengbo/splite.vim).
 I use vim-plug, not vundle, but same idea.
 
+The buffer manipulation stuff was inspired by
+[this article](http://joshldavis.com/2014/04/05/vim-tab-madness-buffers-vs-tabs/).
+
 Installation
 ------------
 

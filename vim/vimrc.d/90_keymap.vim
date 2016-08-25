@@ -8,6 +8,11 @@ noremap <C-L> <C-W>l
 noremap <Leader>h gT
 noremap <Leader>l gt
 
+noremap <Leader>H :bprev<CR>
+noremap <Leader>L :bnext<CR>
+noremap <Leader>bl :ls<CR>
+noremap <leader>bq :bp <BAR> bd #<CR>
+
 noremap <Leader>r :source ~/.vimrc<CR>
 
 " Plugin key mappings
