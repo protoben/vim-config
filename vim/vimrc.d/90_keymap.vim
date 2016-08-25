@@ -1,15 +1,15 @@
 let mapleader=' '
 
-noremap <C-H> <C-W>h
-noremap <C-J> <C-W>j
-noremap <C-K> <C-W>k
-noremap <C-L> <C-W>l
+noremap <Leader>h <C-W>h
+noremap <Leader>j <C-W>j
+noremap <Leader>k <C-W>k
+noremap <Leader>l <C-W>l
 
-noremap <Leader>h gT
-noremap <Leader>l gt
+noremap <Leader>y gT
+noremap <Leader>u gt
 
-noremap <Leader>H :bprev<CR>
-noremap <Leader>L :bnext<CR>
+noremap <Leader>Y :bprev<CR>
+noremap <Leader>U :bnext<CR>
 noremap <Leader>bl :ls<CR>
 noremap <leader>bq :bp <BAR> bd #<CR>
 
@@ -19,5 +19,4 @@ noremap <Leader>r :source ~/.vimrc<CR>
 noremap <Leader>t :NERDTreeTabsToggle<CR>
 noremap <Leader>g :Gstatus<CR>
 noremap <Leader>w :ShowWhiteToggle<CR>
-noremap <Leader>k :exe 'Man ' . expand('<cword>')<CR>
-noremap <Leader>K :Vman <C-R><C-W><CR>
+noremap <Leader>K :exe 'Vman ' . expand('<cword>')<CR>
