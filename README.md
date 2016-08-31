@@ -15,6 +15,5 @@ Installation
 2. Back up your current vim config
 3. Double check that you've backed up your current config (seriously, step 4
    will clobber it)
-4. run `make`
-5. ???
+4. Run `make`
 6. Win?
