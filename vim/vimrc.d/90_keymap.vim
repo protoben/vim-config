@@ -15,7 +15,7 @@ noremap <Leader>u gt
 noremap <Leader>by :bprev<CR>
 noremap <Leader>bu :bnext<CR>
 noremap <Leader>bl :ls<CR>
-noremap <leader>bq :bd<CR>
+noremap <leader>bq :bw<CR>
 
 noremap <Leader>r :source ~/.vimrc<CR>
 
