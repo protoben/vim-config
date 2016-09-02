@@ -1,35 +1,43 @@
 let mapleader=' '
 
-noremap <Leader>h <C-W>h
-noremap <Leader>j <C-W>j
-noremap <Leader>k <C-W>k
-noremap <Leader>l <C-W>l
-noremap <Leader>H <C-W>H
-noremap <Leader>J <C-W>J
-noremap <Leader>K <C-W>K
-noremap <Leader>L <C-W>L
+noremap <silent> <Leader>h <C-W>h
+noremap <silent> <Leader>j <C-W>j
+noremap <silent> <Leader>k <C-W>k
+noremap <silent> <Leader>l <C-W>l
+noremap <silent> <Leader>H <C-W>H
+noremap <silent> <Leader>J <C-W>J
+noremap <silent> <Leader>K <C-W>K
+noremap <silent> <Leader>L <C-W>L
+            
+noremap <silent> <Leader>y gT
+noremap <silent> <Leader>u gt
+            
+noremap <silent> <Leader>by :bprev<CR>
+noremap <silent> <Leader>bu :bnext<CR>
+noremap <silent> <Leader>bl :ls<CR>
+noremap <silent> <leader>bq :bw<CR>
 
-noremap <Leader>y gT
-noremap <Leader>u gt
-
-noremap <Leader>by :bprev<CR>
-noremap <Leader>bu :bnext<CR>
-noremap <Leader>bl :ls<CR>
-noremap <leader>bq :bw<CR>
-
-noremap <Leader>r :source ~/.vimrc<CR>
+noremap <silent> <Leader>r :source ~/.vimrc<CR>
 
 " Plugin key mappings
-noremap  <Leader>t  :NERDTreeTabsToggle<CR>
-noremap  <Leader>g  :Gstatus<CR>
-noremap  <Leader>w  :ShowWhiteToggle<CR>
-noremap  <Leader>m  :exe 'Man ' . expand('<cword>')<CR>
-noremap  K          :exe 'Man ' . expand('<cword>')<CR>
-noremap  <Leader>M  :exe 'Vman ' . expand('<cword>')<CR>
-noremap  <Leader>o  :W3mSplit <C-R><C-F><CR>
-noremap  <Leader>O  :W3mVSplit <C-R><C-F><CR>
-noremap  <Leader>ho :ConqueTermSplit ghci<CR>
-noremap  <Leader>hO :ConqueTermVSplit ghci<CR>
-nnoremap <Leader>.  :call unicoder#start(0)<CR>
-inoremap <C-l>      <Esc>:call unicoder#start(1)<CR>
-vnoremap <Leader>.  :<C-u>call unicoder#selection()<CR>
+noremap  <silent> <Leader>t        :NERDTreeTabsToggle<CR>
+noremap  <silent> <Leader>g        :Gstatus<CR>
+noremap  <silent> <Leader>w        :ShowWhiteToggle<CR>
+noremap  <silent> <Leader>m        :exe 'Man ' . expand('<cword>')<CR>
+noremap  <silent> K                :exe 'Man ' . expand('<cword>')<CR>
+noremap  <silent> <Leader>M        :exe 'Vman ' . expand('<cword>')<CR>
+noremap  <silent> <Leader>o        :W3mSplit <C-R><C-F><CR>
+noremap  <silent> <Leader>O        :W3mVSplit <C-R><C-F><CR>
+noremap  <silent> <Leader><Space>o :ConqueTermSplit ghci<CR>
+noremap  <silent> <Leader><Space>O :ConqueTermVSplit ghci<CR>
+noremap  <silent> <Leader><Space>l :emenu ]LANGUAGES_GHC.
+noremap  <silent> <Leader><Space>c :call GHC_CreateTagfile()<CR>
+noremap  <silent> <Leader><Space>i :call GHC_ShowInfo()<CR>
+noremap  <silent> <Leader><Space>t :call GHC_ShowType(0)<CR>
+noremap  <silent> <Leader><Space>T :call GHC_ShowType(1)<CR>
+noremap  <silent> <Leader><Space>h :call Haddock()<CR>
+noremap  <silent> <Leader><Space>H :call HaskellSearchEngine('hoogle')<CR>
+vnoremap <silent> <Leader><Space>g :<C-U>exe 'GHCi ' . GetVisualSelection()<CR>
+nnoremap <silent> <Leader>.        :call unicoder#start(0)<CR>
+inoremap <silent> <C-l>            <Esc>:call unicoder#start(1)<CR>
+vnoremap <silent> <Leader>.        :<C-u>call unicoder#selection()<CR>
