@@ -20,13 +20,16 @@ noremap <leader>bq :bw<CR>
 noremap <Leader>r :source ~/.vimrc<CR>
 
 " Plugin key mappings
-noremap <Leader>t  :NERDTreeTabsToggle<CR>
-noremap <Leader>g  :Gstatus<CR>
-noremap <Leader>w  :ShowWhiteToggle<CR>
-noremap <Leader>m  :exe 'Man ' . expand('<cword>')<CR>
-noremap K          :exe 'Man ' . expand('<cword>')<CR>
-noremap <Leader>M  :exe 'Vman ' . expand('<cword>')<CR>
-noremap <Leader>o  :W3mSplit <C-R><C-F><CR>
-noremap <Leader>O  :W3mVSplit <C-R><C-F><CR>
-noremap <Leader>ho :ConqueTermSplit ghci<CR>
-noremap <Leader>hO :ConqueTermVSplit ghci<CR>
+noremap  <Leader>t  :NERDTreeTabsToggle<CR>
+noremap  <Leader>g  :Gstatus<CR>
+noremap  <Leader>w  :ShowWhiteToggle<CR>
+noremap  <Leader>m  :exe 'Man ' . expand('<cword>')<CR>
+noremap  K          :exe 'Man ' . expand('<cword>')<CR>
+noremap  <Leader>M  :exe 'Vman ' . expand('<cword>')<CR>
+noremap  <Leader>o  :W3mSplit <C-R><C-F><CR>
+noremap  <Leader>O  :W3mVSplit <C-R><C-F><CR>
+noremap  <Leader>ho :ConqueTermSplit ghci<CR>
+noremap  <Leader>hO :ConqueTermVSplit ghci<CR>
+nnoremap <Leader>.  :call unicoder#start(0)<CR>
+inoremap <C-l>      <Esc>:call unicoder#start(1)<CR>
+vnoremap <Leader>.  :<C-u>call unicoder#selection()<CR>

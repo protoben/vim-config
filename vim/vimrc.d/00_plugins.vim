@@ -14,4 +14,5 @@ Plug 'dmwit/vim-cryptol'
 Plug 'Shirk/vim-gas'
 Plug 'chrisbra/vim-show-whitespace'
 Plug 'vim-utils/vim-man'
+Plug 'joom/latex-unicoder.vim'
 call plug#end()
