@@ -12,7 +12,7 @@ clean:
 	@echo "RM $(HOME)/.vim"; $(RM) -r $(HOME)/.vim
 	@echo "RM $(HOME)/.vimrc"; $(RM) $(HOME)/.vimrc
 
-vim-plug: vim/plugged vim/autoload vim/autoload/plug.vim
+vim-plug: vim/plugged vim/autoload
 	git submodule update --init --recursive
 	@echo "LN vim-plug/plug.vim "; $(LN) $(LNFLAGS) vim-plug/plug.vim vim/autoload/
 
