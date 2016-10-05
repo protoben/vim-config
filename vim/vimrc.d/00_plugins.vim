@@ -1,5 +1,6 @@
 call plug#begin('~/.vim/plugged')
 Plug 'lukerandall/haskellmode-vim'
+Plug 'neovimhaskell/haskell-vim' "better Haskell syntax highlighting
 Plug 'mhinz/vim-signify'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
