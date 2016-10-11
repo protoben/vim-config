@@ -6,5 +6,3 @@ set nocindent
 set indentexpr=''
 set indentkeys=''
 filetype indent off
-
-set textwidth=80
