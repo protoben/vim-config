@@ -6,3 +6,5 @@ highlight VertSplit     cterm=none      ctermbg=238     ctermfg=238
 highlight DiffAdd       cterm=none      ctermbg=0       ctermfg=85
 highlight DiffDelete    cterm=none      ctermbg=0       ctermfg=85
 highlight DiffChange    cterm=none      ctermbg=0       ctermfg=85
+
+nohlsearch

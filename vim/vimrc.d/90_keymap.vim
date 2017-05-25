@@ -37,6 +37,7 @@ noremap  <silent> <Leader><Space>t :call GHC_ShowType(0)<CR>
 noremap  <silent> <Leader><Space>T :call GHC_ShowType(1)<CR>
 noremap  <silent> <Leader><Space>h :call Haddock()<CR>
 noremap  <silent> <Leader><Space>H :call HaskellSearchEngine('hoogle')<CR>
+noremap  <silent> <Leader><Space>b :GHCi :bro<CR>
 vnoremap <silent> <Leader><Space>g :<C-U>exe 'GHCi ' . GetVisualSelection()<CR>
 nnoremap <silent> <Leader>.        :call unicoder#start(0)<CR>
 inoremap <silent> <C-l>            <Esc>:call unicoder#start(1)<CR>

@@ -4,4 +4,5 @@ vim/haddock
 vim/haskellmode.config
 vim/.netrwhist
 vim/autoload/
+vim/spell/*
 *.sw?
