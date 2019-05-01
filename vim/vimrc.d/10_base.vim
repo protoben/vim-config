@@ -9,7 +9,7 @@ set t_Co=256
 set wildmode=longest,full
 set wildmenu
 
-set tabstop=8
+set tabstop=4
 set shiftwidth=4
 set expandtab
 set nojoinspaces
