@@ -1,4 +1,4 @@
-colo rainbow_neon
+colo rainbow_night
 
 syn on
 set nocompatible
@@ -12,5 +12,6 @@ set wildmenu
 set tabstop=8
 set shiftwidth=4
 set expandtab
+set nojoinspaces
 
 filetype plugin indent on
